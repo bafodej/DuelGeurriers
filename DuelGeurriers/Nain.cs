@@ -33,9 +33,10 @@ namespace DuelGeurriers
                 PointDeVie = PointDeVie - (degatSubit/2);
                 AfficherInfos();
             }
-                
+
             
            }
 
     }
+    
 }

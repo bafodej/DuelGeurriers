@@ -17,7 +17,7 @@ namespace DuelGeurriers
         public override void Attaquer()
         {
             Random deLancer = new Random();
-            int degatSubit = deLancer.Next(1, 7) + 1;
+            int degatSubit = deLancer.Next(0, 7) + 1;
             AfficherInfos();
 
 

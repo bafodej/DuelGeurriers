@@ -27,7 +27,7 @@ namespace DuelGeurriers
         public override void  SubirDegat()
         {
             Random deLancer = new Random();
-            //if(armureLourde != false)
+            
             {
                 int degatSubit = deLancer.Next(1, 7);
                 PointDeVie = PointDeVie - (degatSubit/2);

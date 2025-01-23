@@ -19,6 +19,7 @@ namespace DuelGeurriers
             Random deLancer = new Random();
             int degatSubit = deLancer.Next(0, 7) + 1;
             AfficherInfos();
+            
 
 
         }
